@@ -1,7 +1,7 @@
 <?php
 // Database configuration
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'tutors_lounge');
+define('DB_NAME', 'if0_38927201_tutors_lounge');
 define('DB_USER', 'root');
 define('DB_PASS', '');
 
