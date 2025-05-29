@@ -1,0 +1,71 @@
+/* Dashboard Stats Cards */
+.icon-shape {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bg-opacity-10 {
+    --bs-bg-opacity: 0.1;
+}
+
+/* Avatar Circles */
+.avatar-circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Table Enhancements */
+.table > :not(caption) > * > * {
+    padding: 1rem 0.75rem;
+}
+
+.table > thead {
+    border-top: none;
+}
+
+.table > tbody > tr:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* Card Enhancements */
+.card {
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-footer {
+    background: transparent;
+}
+
+/* Text Truncation */
+.text-truncate {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .table-responsive {
+        margin-bottom: 0;
+    }
+}
